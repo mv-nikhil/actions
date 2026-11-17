@@ -16,12 +16,12 @@ jobs:
 
     steps:
       - name: Checkout repository code
-        uses: actions/checkout@v1 # Essential for accessing your repo's code
+        uses: actions/actiont@v1 # Essential for accessing your repo's code
 
       - name: Execute my custom Linux Commands Action
         # Reference your action using its repository path and version tag
         # Replace 'YOUR_GITHUB_USERNAME' with your actual username/organization name
-        uses: mv-nikhil/action@v1
+        uses: mv-nikhil/actions@v1
 
       # You can add more steps here for building, testing, deploying, etc.
       - name: Show build complete message
