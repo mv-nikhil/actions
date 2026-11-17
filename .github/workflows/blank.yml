@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout repository code
-        uses: actions/action@v1 # Essential for accessing your repo's code
+        uses: actions/my-actions@v1 # Essential for accessing your repo's code
 
       - name: Execute my custom Linux Commands Action
         # Reference your action using its repository path and version tag
